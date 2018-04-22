@@ -8,7 +8,7 @@ import ContactUsView from './ContactUsView.jsx';
 
 export default class OverlayView extends React.Component {
 	render(){
-		return (<div>
+		return (<div className={OverlayViewCss.overlayDiv}>
 				<HomeView/>
 				<ServicesView/>
 				<AboutView/>
