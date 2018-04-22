@@ -1,7 +1,7 @@
 {
-  "name": "Giga Solar",
+  "name": "gigasolar",
   "version": "1.0.0",
-  "description": "Website Giga solar",
+  "description": "WebsiteGigasolar",
   "scripts": {
     "start": "webpack-dev-server --hot --open",
     "lint": "eslint src"
