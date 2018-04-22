@@ -3,6 +3,6 @@ import ProjectsViewCss from '../css/ProjectsView.css';
 
 export default class ProjectsView extends React.Component {
   render(){
-    return '';
+    return <div/>;
   }
 }

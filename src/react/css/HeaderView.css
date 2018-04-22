@@ -3,12 +3,33 @@
 }
 
 :local(.appHeader) {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  background-color: rgba(30, 45, 59, 1);
+  height: 30px;
+  padding: 10px;
 }
 
+:local(.headerTable){
+	height: 100%;
+	width: 100%;
+}
+
+:local(.headerRow){
+	width: 100%;
+}
+
+:local(.headerLogo){
+	width:100px;
+	position: absolute;
+}
+
+:local(.headerMenus){
+	width:50%;
+}
+
+:local(.padding){
+	width: 30%;
+	position: sticky;
+}
 :local(.appLogo) {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

@@ -1,0 +1,22 @@
+:local(.slider){
+  height: 400px;
+  width: 100px;
+}
+
+:local(.slideOne){
+  height: 100%;
+  width: 100%;
+	background: url(../../static/images/1.jpg) no-repeat;
+}
+:local(.slideTwo){
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  background: url(../../static/images/2.jpg) no-repeat;
+}
+:local(.slideThree){
+background-color: yellow;
+height: 100%;
+width: 100%;
+background: url(../../static/images/3.jpg) no-repeat;
+}

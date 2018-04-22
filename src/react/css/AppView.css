@@ -1,7 +1,24 @@
-:local(.app) {
+.app {
   text-align: center;
+  overflow: scroll;
 }
 
 :local(.appIntro) {
   font-size: large;
+}
+
+:local(.header){
+  height: 15%;
+}
+
+:local(.footer){
+  height: 15%;
+}
+
+:local(.slider){
+  height: 30%;
+}
+
+:local(.overlay){
+  height: 40%;
 }

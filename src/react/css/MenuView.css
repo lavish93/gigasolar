@@ -1,0 +1,42 @@
+:local(.menus){
+  font-size: 10px;
+  color: black;
+  height: 100%;
+  position: sticky;
+}
+
+:local(.homeMenu){
+  width:20%;
+  color: white;
+  text-decoration: none;
+}
+:local(.aboutMenu){
+  width:20%;
+  color: white;
+  text-decoration: none;
+}
+:local(.servicesMenu){
+  width:20%;
+  color: white;
+  text-decoration: none;
+}
+:local(.projectsMenu){
+  width:20%;
+  color: white;
+  text-decoration: none;
+}
+:local(.contactUsMenu){
+  width:20%;
+  color: white;
+  text-decoration: none;
+}
+:local(.ulMenu){
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width:100%;
+}

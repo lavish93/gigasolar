@@ -1,12 +1,20 @@
 import React from 'react';
-import logo from '../../static/images/logo.svg';
-import HeaderCss from '../css/HeaderView.css'
+import HeaderViewCss from '../css/HeaderView.css'
+import LogoView from './LogoView.jsx'
+import MenuView from './MenuView.jsx'
 
 export default class HeaderView extends React.Component {
 	render(){
-		return (<div className={HeaderCss.appHeader}>
-					<img src={logo} className={HeaderCss.appLogo} alt="logo" />
-					<h1 className={HeaderCss.appTitle}>Welcome to React</h1>
+		return (<div className={HeaderViewCss.appHeader}>
+							<table className={HeaderViewCss.headerTable}>
+							<tbody>
+							<tr className={HeaderViewCss.headerRow}>
+								<td className={HeaderViewCss.headerLogo}><LogoView/></td>
+								<td className={HeaderViewCss.padding}></td>
+								<td className={HeaderViewCss.headerMenus}><MenuView/></td>
+							</tr>
+							</tbody>
+							</table>
 			</div>);
 	}
 

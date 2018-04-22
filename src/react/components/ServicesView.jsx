@@ -3,6 +3,6 @@ import ServicesViewCss from '../css/ServicesView.css';
 
 export default class ServicesView extends React.Component {
   render(){
-    return '';
+    return (<div/>);
   }
 }
