@@ -1,12 +1,12 @@
 import { observable, action, reaction } from 'mobx';
 import Constants from '../util/Constants.jsx'
 export class MenuStore {
-  @observable selectedMenu = undefined;
+  @observable selectedMenu = Constants.DEFAULT_MENU;
   @action setSelectedMenu(menuName) {
         this.selectedMenu = menuName;
   }
   getSelectedMenu(){
-    return (this.selectedMenu ? this.selectedMenu : Constants.DEFAULT_MENU);
+    return this.selectedMenu;
   }
 }
 export default new MenuStore();

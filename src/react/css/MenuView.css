@@ -5,30 +5,19 @@
   position: sticky;
 }
 
-:local(.homeMenu){
+:local(.menuButton){
   width:20%;
   color: white;
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
   text-decoration: none;
 }
-:local(.aboutMenu){
+:local(.menuButton:hover){
   width:20%;
-  color: white;
+  color: #9eccd2;
   text-decoration: none;
-}
-:local(.servicesMenu){
-  width:20%;
-  color: white;
-  text-decoration: none;
-}
-:local(.projectsMenu){
-  width:20%;
-  color: white;
-  text-decoration: none;
-}
-:local(.contactUsMenu){
-  width:20%;
-  color: white;
-  text-decoration: none;
+  cursor: pointer;
 }
 :local(.ulMenu){
   list-style-type: none;

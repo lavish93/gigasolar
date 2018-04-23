@@ -1,6 +1,7 @@
-.app {
+:local(.app) {
   text-align: center;
   overflow: scroll;
+  background-color: rgba(30, 45, 59, 1);
 }
 
 :local(.appIntro) {
