@@ -11,22 +11,16 @@ export default class SliderView extends React.Component {
   render() {
       let baseUrl = "../../static/images/";
     const settings = {
-      customPaging: function(i) {
-        return (
-          <a>
-            <img src={`${baseUrl}${i + 1}.jpg`} />
-          </a>
-        );
-      },
       dots: true,
-      dotsClass: "slick-dots slick-thumb",
+      lazyLoad: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      initialSlide: 2
     };
     return (
-      <div>
+      <div className={SliderViewCss.sliderDiv}>
         <Slider {...settings}>
           <div>
             <img src={slideOne} />
@@ -37,9 +31,6 @@ export default class SliderView extends React.Component {
           <div>
             <img src={slideThree} />
           </div>
-          <div>
-            <img src={baseUrl + "4.jpg"} />
-          </div>
         </Slider>
       </div>
     );
@@ -49,13 +40,19 @@ export default class SliderView extends React.Component {
 /*export default class SliderView extends React.Component {
   render() {
     const settings = {
+      customPaging: function(i) {
+        return (
+          <a>
+            <img src={`${baseUrl}${i + 1}.jpg`}/>
+          </a>
+        );
+      },
       dots: true,
-      lazyLoad: true,
+      dotsClass: "slick-dots slick-thumb",
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1,
-      initialSlide: 2
+      slidesToScroll: 1
     };
     let baseUrl = "../../static/images/";
     return (

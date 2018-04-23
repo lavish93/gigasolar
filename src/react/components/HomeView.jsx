@@ -3,6 +3,7 @@ import HomeViewCss from '../css/HomeView.css';
 
 export default class HomeView extends React.Component {
   render(){
-    return (<div/>);
+    return (<div className={HomeViewCss.homeMenuDiv}>
+              </div>);
   }
 }

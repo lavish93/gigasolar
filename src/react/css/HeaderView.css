@@ -26,9 +26,10 @@
 	width:50%;
 }
 
-:local(.padding){
+:local(.headerName){
 	width: 30%;
 	position: sticky;
+	color: white;
 }
 :local(.appLogo) {
   animation: App-logo-spin infinite 20s linear;
