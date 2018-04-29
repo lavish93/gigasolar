@@ -13,7 +13,7 @@ const stores = {
 render(
   <div>
   	<Provider {...stores}>
-    <AppView />
+    <AppView/>
     </Provider>
   </div>,
   document.getElementById("root")

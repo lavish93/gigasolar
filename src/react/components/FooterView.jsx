@@ -10,12 +10,25 @@ export default class FooterView extends React.Component {
 							<tr className={FooterViewCss.footerRow}>
 								<td className={FooterViewCss.padding}></td>
 								<td className={FooterViewCss.footerMenus}></td>
-								<td>
-								<td>
-								<SocialIcon className={FooterViewCss.socialIcons} title="twitter" network="twitter"/>
-								</td><td>
-								<SocialIcon className={FooterViewCss.socialIcons} title="facebook" network="facebook"/>
-								</td><td><SocialIcon className={FooterViewCss.socialIcons} title="linkedin" network="linkedin"/></td>
+								<td className={FooterViewCss.socialIcons}>
+								<table className={FooterViewCss.footerTable}>
+								<tbody>
+								<tr>
+									<td className={FooterViewCss.socialIconTwitter}>
+										<SocialIcon title="twitter" network="twitter"/>
+									</td>
+									<td className={FooterViewCss.socialIconFacebook}>
+										<SocialIcon title="facebook" network="facebook"/>
+									</td>
+									<td className={FooterViewCss.socialIconLinkedIn}>
+										<SocialIcon title="linkedin" network="linkedin"/>
+									</td>
+									<td className={FooterViewCss.socialIconGPlus}>
+										<SocialIcon title="linkedin" network="Google"/>
+									</td>
+									</tr>
+									</tbody>
+								</table>
 								</td>
 							</tr>
 							</tbody>

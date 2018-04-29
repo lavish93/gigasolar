@@ -19,6 +19,12 @@
   text-decoration: none;
   cursor: pointer;
 }
+:local(.menuButton:focus){
+  width:20%;
+  color: #9eccd2;
+  text-decoration: none;
+  outline: 1px solid blue;
+}
 :local(.ulMenu){
   list-style-type: none;
   margin: 0;

@@ -29,12 +29,22 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.4",
+    "material-ui": "^0.20.0",
     "mobx": "^3.0.0",
     "mobx-react": "^4.1.0",
     "mobx-react-devtools": "^4.2.11",
     "react": "^15.1.0",
+    "react-blocks": "^1.1.4",
+    "react-coverflow": "^0.2.14",
     "react-dom": "^15.1.0",
+    "react-full-page": "^0.1.4",
+    "react-image-tiler": "^1.1.5",
+    "react-imageloader": "^3.0.0",
+    "react-list-view": "^1.0.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
-    "react-slick": "^0.23.1"
+    "react-scroll-to-component": "^1.0.2",
+    "react-slick": "^0.23.1",
+    "react-slideshow-image": "^0.2.2"
   }
 }

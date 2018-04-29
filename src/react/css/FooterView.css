@@ -28,3 +28,23 @@
   width: 20%;
   height: 20px;
 }
+
+:local(.socialIconTwitter){
+  width: 25%;
+  height: 20px;
+}
+
+:local(.socialIconFacebook){
+  width: 25%;
+  height: 20px;
+}
+
+:local(.socialIconLinkedIn){
+  width: 25%;
+  height: 20px;
+}
+
+:local(.socialIconGPlus){
+  width: 25%;
+  height: 20px;
+}

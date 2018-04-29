@@ -1,7 +1,8 @@
 :local(.app) {
   text-align: center;
-  overflow: scroll;
   background-color: rgba(30, 45, 59, 1);
+  width:100%;
+  height:85%;
 }
 
 :local(.appIntro) {
@@ -21,5 +22,5 @@
 }
 
 :local(.overlay){
-  height: 40%;
+  height: 35%;
 }

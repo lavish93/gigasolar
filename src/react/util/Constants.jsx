@@ -5,4 +5,5 @@ export default class Constants {
   static MENU_PROJECTS = "projects";
   static MENU_CONTACTUS = "contactus";
   static DEFAULT_MENU = "home";
+	static NUMBER_OF_SLIDES = 2;
 }
